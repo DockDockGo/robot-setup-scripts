@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=0.9.4
+Type=Application
+Name=Navstack-Autostart
+Comment=Navstack-Autostart
+Exec=xfce4-terminal --title=navstack -H -e '/bin/bash -i -c "/home/neobotix/START_NAVSTACK.sh"'
+StartupNotify=false
+Terminal=false
+Hidden=false
